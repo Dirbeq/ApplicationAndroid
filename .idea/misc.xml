@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.39947916666666666" />
         <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/layout/activity_group.xml" value="0.25" />
         <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/layout/activity_main.xml" value="0.26766304347826086" />
         <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/layout/activity_spash.xml" value="0.26766304347826086" />
         <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/layout/activity_splash.xml" value="0.15" />
-        <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/layout/layout_header.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/layout/activity_student.xml" value="0.33" />
+        <entry key="..\:/Users/coren/AndroidStudioProjects/ApplicationAndroid/app/src/main/res/layout/layout_header.xml" value="0.33" />
       </map>
     </option>
   </component>
