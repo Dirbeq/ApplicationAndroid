@@ -6,31 +6,25 @@
     android:layout_height="match_parent">
 
     <include
-        android:id="@+id/include"
+        android:id="@+id/include2"
         layout="@layout/layout_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="142dp"
-        android:layout_height="110dp"
-        android:text="Etudiant 1"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="142dp"
-        android:layout_height="110dp"
-        android:text="Etudiant 2"
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="407dp"
+        android:layout_height="654dp"
+        android:layout_marginTop="8dp"
+        android:columnWidth="80dp"
+        android:gravity="center"
+        android:numColumns="1"
+        android:stretchMode="columnWidth"
+        android:padding="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+        app:layout_constraintTop_toBottomOf="@+id/include2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

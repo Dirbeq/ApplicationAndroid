@@ -1,6 +1,5 @@
 package com.example.applicationandroid
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -22,7 +21,8 @@ class MainActivity : BaseActivity() {
         })
 
         button2.setOnClickListener(View.OnClickListener {
-            val newIntent= Intent(application,GroupActivity::class.java)
+            val newIntent= Intent(application,CategoriesActivity::class.java)
+            newIntent.putExtra("title","Rayons")
             startActivity(newIntent)
         })
 
